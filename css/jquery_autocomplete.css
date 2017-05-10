@@ -1,0 +1,49 @@
+/*
+* Dibuat Oleh Amin
+* Digunakan untuk jQuery autocomplete yag ada di dalam modal
+*/
+
+
+.ui-autocomplete-loading {
+    background: white url("../img/loading-16px.gif") right center no-repeat;
+}
+.ui-autocomplete .box{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px;
+    border-radius: 0;
+}
+.ui-autocomplete {
+    position: absolute;
+    z-index: 123456789;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    max-height: 400px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+.ui-autocomplete > li {
+    padding: 3px 10px;
+}
+.ui-autocomplete > li:nth-child(even) {
+    background-color: rgba(220,220,220,0.4);
+}
+.ui-autocomplete > li.ui-state-focus {
+    background-color: #3399FF;
+    color:#ffffff;
+}
+.ui-helper-hidden-accessible {
+    display: none;
+}
